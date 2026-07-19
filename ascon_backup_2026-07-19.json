@@ -1,0 +1,135 @@
+{
+  "receitas": [
+    {
+      "id": "mrqo5nzaagccwh",
+      "data": "2026-07-09",
+      "cliente": "Jose",
+      "valor": 500,
+      "tipo": "Mensalidade",
+      "obs": "-"
+    },
+    {
+      "id": "mrqo5nzag0z5bf",
+      "data": "2026-07-14",
+      "cliente": "Maria",
+      "valor": 500,
+      "tipo": "Mensalidade",
+      "obs": "01/07/2025"
+    },
+    {
+      "id": "mrqo5nzayg3qgg",
+      "data": "2026-07-14",
+      "cliente": "VERA",
+      "valor": 200,
+      "tipo": "Aluguel",
+      "obs": "-"
+    }
+  ],
+  "despesas": [
+    {
+      "id": "mrqo5nzao98bgi",
+      "data": "2026-07-06",
+      "nome": "Energia",
+      "valor": 150,
+      "tipo": "Casa",
+      "obs": "-"
+    },
+    {
+      "id": "mrqo5nzaw9mtxx",
+      "data": "2026-07-14",
+      "nome": "Celular",
+      "valor": 150,
+      "tipo": "Casa",
+      "obs": "Adma"
+    },
+    {
+      "id": "mrqo5nza0m81y1",
+      "data": "2026-07-14",
+      "nome": "Agua",
+      "valor": 50,
+      "tipo": "Saude",
+      "obs": "-"
+    }
+  ],
+  "pagar": [
+    {
+      "id": "mrqo5nza8lj9tt",
+      "data": "2026-07-31",
+      "credor": "Deposito",
+      "valor": 50,
+      "tipo": "Escritorio",
+      "status": "Pendente"
+    },
+    {
+      "id": "mrqo5nza07qd5a",
+      "data": "2026-07-31",
+      "credor": "Bar Orla",
+      "valor": 60,
+      "tipo": "Cerveja",
+      "status": "Pendente"
+    }
+  ],
+  "receber": [
+    {
+      "id": "mrqo5nzaa5z4g5",
+      "data": "2026-06-30",
+      "cliente": "Maria",
+      "valor": 200,
+      "tipo": "Politica",
+      "status": "Confirmado"
+    },
+    {
+      "id": "mrqo5nza9t1w9y",
+      "data": "2026-07-31",
+      "cliente": "Jose",
+      "valor": 200,
+      "tipo": "Politica",
+      "status": "Aguardando"
+    }
+  ],
+  "agenda": [
+    {
+      "id": "mrqo5nzatq7847",
+      "data": "2026-05-13",
+      "evento": "Cinema",
+      "cat": "Lazer",
+      "tipo": "Propriá",
+      "hora": "15:00",
+      "status": "SIM"
+    },
+    {
+      "id": "mrqo5nzag6q0k8",
+      "data": "2026-07-13",
+      "evento": "Fazer Planilha",
+      "cat": "Escritorio",
+      "tipo": "Propriá",
+      "hora": "09:00",
+      "status": "NÃO"
+    }
+  ],
+  "categorias": {
+    "receita": [
+      "Mensalidade",
+      "Aluguel",
+      "Serviços IR",
+      "Serviços Firma",
+      "Comissão",
+      "Extra"
+    ],
+    "despesa": [
+      "Casa",
+      "Sitio",
+      "Carro",
+      "Escritorio",
+      "Pessoal",
+      "Cartão",
+      "Saude",
+      "Investimento",
+      "Extra"
+    ]
+  },
+  "orcamentos": {
+    "receita": {},
+    "despesa": {}
+  }
+}
